@@ -1,6 +1,6 @@
 {
 	"name": "infranodus-skills-lab",
-	"description": "InfraNodus Skills Lab: experimental thinking, perspective and planning skills (critical perspective, rhetorical analysis, perspective reversal, embodied navigation, Vipassana for LLMs, shopping research, actionize). Moved from infranodus/skills.",
+	"description": "InfraNodus Skills Lab: experimental thinking, perspective, planning and video skills (critical perspective, rhetorical analysis, perspective reversal, embodied navigation, Vipassana for LLMs, shopping research, actionize, YouTube viral optimizer). Moved from infranodus/skills.",
 	"owner": {
 		"name": "InfraNodus",
 		"url": "https://github.com/infranodus/skills-lab"
@@ -17,7 +17,8 @@
 				"./skill-perspective-reversal",
 				"./skill-rhetorical-analyst",
 				"./skill-shopping",
-				"./skill-vipassana-meditation"
+				"./skill-vipassana-meditation",
+				"./skill-viral-videos"
 			],
 			"mcpServers": {
 				"infranodus": {
@@ -60,6 +61,11 @@
 			"name": "vipassana-llm",
 			"source": "./skill-vipassana-meditation",
 			"description": "Apply Vipassana meditation principles to LLM processing: equanimous scanning, non-reactive observation, impermanence awareness."
+		},
+		{
+			"name": "youtube-viral-optimizer",
+			"source": "./skill-viral-videos",
+			"description": "Generate high-CTR YouTube thumbnails, titles, and video scripts optimized for virality and algorithm positioning."
 		}
 	]
 }

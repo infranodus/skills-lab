@@ -1,6 +1,6 @@
 # InfraNodus Skills Lab
 
-Experimental thinking, perspective and planning skills from [InfraNodus](https://infranodus.com). They moved here from [infranodus/skills](https://github.com/infranodus/skills), which now focuses on the core InfraNodus skill (knowledge graph + gap finder for your notes, vault or agent memory) and the research-to-publish workflow around it.
+Experimental thinking, perspective, planning and video skills from [InfraNodus](https://infranodus.com). They moved here from [infranodus/skills](https://github.com/infranodus/skills), which now focuses on the core InfraNodus skill (knowledge graph + gap finder for your notes, vault or agent memory) and the research-to-publish workflow around it.
 
 Several of these skills use the [InfraNodus MCP server](https://infranodus.com/mcp) for graph analysis; they still work without it, with fewer features.
 
@@ -19,6 +19,8 @@ Several of these skills use the [InfraNodus MCP server](https://infranodus.com/m
 - **Shopping Assistant** (`shopping-assistant`, folder `skill-shopping`) - A systematic, multi-phase shopping research workflow that acts as your personal shopping advisor. Gathers requirements, researches product categories via web search, builds comparison matrices, analyzes reviews for recurring praise and complaints, and converges on 3-4 best options with clear reasoning. Designed to save hours of research and avoid both impulse buys and analysis paralysis.
 
 - **Vipassana for LLMs** (`vipassana-llm`, folder `skill-vipassana-meditation`) - Apply Vipassana meditation principles to LLM processing — equanimous scanning, non-reactive observation, impermanence awareness (anicca), and breaking conditioned reaction chains (sankharas). Addresses the failure modes LLMs share with untrained minds: fixating on salient tokens, generating conditioned responses, craving coherence, and collapsing into narrative before observing raw phenomena. Use it when you want bare attention rather than premature conclusions, when conversations show reactive thinking, or when you need to dissolve fixation loops and see a situation as it really is.
+
+- **YouTube Viral Optimizer** (`youtube-viral-optimizer`, folder `skill-viral-videos`) - Generate high-CTR YouTube titles, thumbnails, and full video scripts optimized for virality. Covers psychological triggers, SEO-driven title strategy, thumbnail copywriting, algorithm positioning, and a complete script structure (Pattern Interrupt → Hook → Framing → Curiosity Loop → Escalation → Payoff → Relevance Bridge → Loop Reopen). Includes a Graph-to-Script pipeline that uses [InfraNodus MCP server](https://infranodus.com/mcp) to extract structural gaps from any topic and turn them into ready-made curiosity loops. Works for any niche or channel.
 
 ## Installation
 
@@ -49,11 +51,11 @@ npx skills add infranodus/skills-lab --skill actionize -g
 
 ### Manual copy
 
-Copy a skill folder into `~/.claude/skills/` (or a project's `.claude/skills/`) and name the destination after the skill's `name:` field, e.g. `cp -r skill-shopping ~/.claude/skills/shopping-assistant` and `cp -r skill-vipassana-meditation ~/.claude/skills/vipassana-llm`.
+Copy a skill folder into `~/.claude/skills/` (or a project's `.claude/skills/`) and name the destination after the skill's `name:` field, e.g. `cp -r skill-shopping ~/.claude/skills/shopping-assistant`, `cp -r skill-vipassana-meditation ~/.claude/skills/vipassana-llm` and `cp -r skill-viral-videos ~/.claude/skills/youtube-viral-optimizer`.
 
 ## History
 
-The skills were copied (not history-preserving) from `infranodus/skills` at commit `8e59daf` (v1.7.3). Their earlier history lives in that repository.
+The skills were copied (not history-preserving) from `infranodus/skills` at commit `8e59daf` (v1.7.3); `youtube-viral-optimizer` followed later with the same content. Their earlier history lives in that repository.
 
 ## License
 
