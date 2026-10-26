@@ -1,6 +1,4 @@
-# InfraNodus Lab
-
-> **Placeholders, TBD:** the GitHub repository name `infranodus/infranodus-lab` and the marketplace name `infranodus-lab` are not final, and this repository is not published yet. Every command below that names them will change if the names change.
+# InfraNodus Skills Lab
 
 Experimental thinking, perspective and planning skills from [InfraNodus](https://infranodus.com). They moved here from [infranodus/skills](https://github.com/infranodus/skills), which now focuses on the core InfraNodus skill (knowledge graph + gap finder for your notes, vault or agent memory) and the research-to-publish workflow around it.
 
@@ -36,9 +34,9 @@ Already using the `infranodus-skills` marketplace? Nothing changes: the same ids
 Or add this marketplace directly:
 
 ```
-/plugin marketplace add infranodus/infranodus-lab
-/plugin install actionize@infranodus-lab
-/plugin install infranodus-lab-all@infranodus-lab    # all Lab skills + InfraNodus MCP server
+/plugin marketplace add infranodus/skills-lab
+/plugin install actionize@infranodus-skills-lab
+/plugin install skills-lab-all@infranodus-skills-lab    # all Lab skills + InfraNodus MCP server
 ```
 
 Install a skill from **one** marketplace only; installing the same skill from both loads it twice.
@@ -46,7 +44,7 @@ Install a skill from **one** marketplace only; installing the same skill from bo
 ### `npx skills`
 
 ```bash
-npx skills add infranodus/infranodus-lab --skill actionize -g
+npx skills add infranodus/skills-lab --skill actionize -g
 ```
 
 ### Manual copy

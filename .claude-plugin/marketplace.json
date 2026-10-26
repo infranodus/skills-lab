@@ -1,15 +1,15 @@
 {
-	"name": "infranodus-lab",
-	"description": "InfraNodus Lab: experimental thinking, perspective and planning skills (critical perspective, rhetorical analysis, perspective reversal, embodied navigation, Vipassana for LLMs, shopping research, actionize). Moved from infranodus/skills. Repository and marketplace name are placeholders (TBD).",
+	"name": "infranodus-skills-lab",
+	"description": "InfraNodus Skills Lab: experimental thinking, perspective and planning skills (critical perspective, rhetorical analysis, perspective reversal, embodied navigation, Vipassana for LLMs, shopping research, actionize). Moved from infranodus/skills.",
 	"owner": {
 		"name": "InfraNodus",
-		"url": "https://github.com/infranodus/infranodus-lab"
+		"url": "https://github.com/infranodus/skills-lab"
 	},
 	"plugins": [
 		{
-			"name": "infranodus-lab-all",
+			"name": "skills-lab-all",
 			"source": "./",
-			"description": "All InfraNodus Lab skills in one install.",
+			"description": "All InfraNodus Skills Lab skills in one install, plus the InfraNodus MCP server.",
 			"skills": [
 				"./skill-actionize",
 				"./skill-critical-perspective",
