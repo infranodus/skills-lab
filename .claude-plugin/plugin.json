@@ -1,0 +1,42 @@
+{
+	"name": "skills-lab-all",
+	"version": "1.8.0",
+	"description": "All InfraNodus Skills Lab skills in one install, plus the InfraNodus MCP server.",
+	"author": {
+		"name": "InfraNodus",
+		"url": "https://infranodus.com"
+	},
+	"license": "Apache-2.0 AND CC-BY-4.0",
+	"keywords": [
+		"infranodus",
+		"knowledge-graph",
+		"critical-thinking",
+		"rhetoric",
+		"planning",
+		"youtube",
+		"shopping",
+		"meditation"
+	],
+	"homepage": "https://github.com/infranodus/skills-lab",
+	"repository": "https://github.com/infranodus/skills-lab",
+	"documentationUrl": "https://github.com/infranodus/skills-lab",
+	"supportUrl": "https://support.noduslabs.com",
+	"privacyPolicyUrl": "https://infranodus.com/about/privacy-policy",
+	"termsOfServiceUrl": "https://infranodus.com/about/terms-conditions",
+	"skills": [
+		"./skill-actionize",
+		"./skill-critical-perspective",
+		"./skill-embodied-navigation",
+		"./skill-perspective-reversal",
+		"./skill-rhetorical-analyst",
+		"./skill-shopping",
+		"./skill-vipassana-meditation",
+		"./skill-viral-videos"
+	],
+	"mcpServers": {
+		"infranodus": {
+			"type": "http",
+			"url": "https://mcp.infranodus.com"
+		}
+	}
+}
