@@ -2,7 +2,7 @@
 
 Experimental thinking, perspective, planning and video skills from [InfraNodus](https://infranodus.com). They moved here from [infranodus/skills](https://github.com/infranodus/skills), which now focuses on the core InfraNodus skill (knowledge graph + gap finder for your notes, vault or agent memory) and the research-to-publish workflow around it.
 
-Several of these skills use the [InfraNodus MCP server](https://infranodus.com/mcp) for graph analysis; they still work without it, with fewer features.
+Several of these skills use the [InfraNodus MCP server](https://infranodus.com/mcp) for graph analysis; they still work without it, with fewer features. No plugin here brings the server: connect the InfraNodus connector (claude.ai Settings → Connectors) or run `claude mcp add --transport http infranodus https://mcp.infranodus.com`, then sign in. That way a plugin never hides or duplicates the connector you already have.
 
 ## Skills
 
@@ -38,7 +38,7 @@ Or add this marketplace directly:
 ```
 /plugin marketplace add infranodus/skills-lab
 /plugin install actionize@infranodus-skills-lab
-/plugin install skills-lab-all@infranodus-skills-lab    # all Lab skills + InfraNodus MCP server
+/plugin install skills-lab-all@infranodus-skills-lab    # all Lab skills
 ```
 
 Install a skill from **one** marketplace only; installing the same skill from both loads it twice.

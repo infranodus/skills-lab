@@ -1,7 +1,7 @@
 {
 	"name": "skills-lab-all",
-	"version": "1.8.0",
-	"description": "All InfraNodus Skills Lab skills in one install, plus the InfraNodus MCP server.",
+	"version": "1.8.1",
+	"description": "All InfraNodus Skills Lab skills in one install. Several use your InfraNodus connector for graph analysis and work without it, with fewer features.",
 	"author": {
 		"name": "InfraNodus",
 		"url": "https://infranodus.com"
@@ -32,11 +32,5 @@
 		"./skill-shopping",
 		"./skill-vipassana-meditation",
 		"./skill-viral-videos"
-	],
-	"mcpServers": {
-		"infranodus": {
-			"type": "http",
-			"url": "https://mcp.infranodus.com"
-		}
-	}
+	]
 }
