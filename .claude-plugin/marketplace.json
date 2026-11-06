@@ -9,7 +9,7 @@
 		{
 			"name": "skills-lab-all",
 			"source": "./",
-			"description": "All InfraNodus Skills Lab skills in one install, plus the InfraNodus MCP server.",
+			"description": "All InfraNodus Skills Lab skills in one install. Several use your InfraNodus connector for graph analysis and work without it, with fewer features.",
 			"skills": [
 				"./skill-actionize",
 				"./skill-critical-perspective",

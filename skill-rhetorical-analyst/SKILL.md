@@ -246,7 +246,7 @@ When InfraNodus tools were used, structural findings (Steps 1–3) should be nam
 
 ### When InfraNodus tools are not available
 
-If the InfraNodus server is installed but not signed in (its tools are missing or return an authentication error), tell the user to run `/mcp` in Claude Code, select InfraNodus and sign in, then continue.
+If the InfraNodus tools are missing or return an authentication error, tell the user to connect the InfraNodus connector (claude.ai Settings → Connectors) or run `claude mcp add --transport http infranodus https://mcp.infranodus.com`, then sign in, and continue.
 
 Proceed with Steps 4–7 only. Note that gap identification is intuited rather than structurally derived. The analysis is valid but gap findings are less robust.
 
