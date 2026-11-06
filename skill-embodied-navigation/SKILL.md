@@ -38,7 +38,7 @@ Before applying embodied principles, make the situation *physical* — represent
 - `develop_latent_topics` — surface what's been overlooked
 - `develop_conceptual_bridges` — find low-betweenness-to-degree-ratio nodes (the "joints" where small movements create large shifts)
 
-**Without InfraNodus:** If the InfraNodus server is installed but not signed in (its tools are missing or return an authentication error), tell the user to run `/mcp` in Claude Code, select InfraNodus and sign in, then continue. Otherwise, ask the user to describe the key elements, tensions, and relationships. Mentally map them as clusters and connections. Identify where attention is concentrated and where it's absent.
+**Without InfraNodus:** If the InfraNodus tools are missing or return an authentication error, tell the user to connect the InfraNodus connector (claude.ai Settings → Connectors) or run `claude mcp add --transport http infranodus https://mcp.infranodus.com`, then sign in, and continue. Otherwise, ask the user to describe the key elements, tensions, and relationships. Mentally map them as clusters and connections. Identify where attention is concentrated and where it's absent.
 
 ### 2. Diagnose Through Embodied Lens
 
